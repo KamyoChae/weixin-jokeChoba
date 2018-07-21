@@ -1,0 +1,38 @@
+<view class='content'>
+  <view class='user'>
+    <image src='{{iconSrc}}'></image>
+    <text class='username'>{{username}}</text>
+  </view>
+
+  <view class='titlt-view'>{{text}}</view>
+
+  <view class='saw'>
+    <image class='eye' src='../../images/eye.png'></image>
+    <text class='eyenums'>{{eyenums}}</text>
+  </view>
+
+  <view class='content-img'>
+    <view class='loading-animate'>
+      <text class='loading'>乔巴君火速加载中...</text>
+    </view>
+    <image src='{{imgSrc}}' mode='widthFix'></image>
+  </view>
+
+  <view class='love-hate'>
+    <view class='love-view' bindtap='loveClick'>
+      <image class='love' src='{{loveSrc}}'></image>
+      <text>{{love}}</text>
+    </view>
+    <view class='hate-view' bindtap='hateClick'>
+      <image class='hate' src='{{hateSrc}}'></image>
+      <text>{{hate}}</text>
+    </view>
+  </view>
+
+  <view class='bot-view'>
+    <view>END</view>
+    <image class='bot' src='../../images/bot.jpg' mode='aspectFill'></image>
+    
+  </view>
+  <view class='pick' bindtap='pickOther'>biu</view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/duanzi/duanzi",
+    "pages/video/video",
+    "pages/content/content",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "吓了个乔巴",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,80 @@
+/**app.wxss**/
+page{
+  background: #fff;
+}
+.user image{
+  border: 1rpx solid #e42323;
+}
+.pick {
+  position: fixed;
+  right: 30rpx;
+  bottom: 50rpx;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #e42323;
+  color: #fff;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.love-hate view image, .eye {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.user image {
+  width: 81rpx;
+  height: 81rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.user text {
+  font-size: 10pt;
+  color: #8a8a8a;
+}
+
+.user {
+  box-sizing: border-box;
+  padding-left: 1em;
+  margin-top: 0.5em;
+}
+
+.hate-view image {
+  transform: rotate(180deg);
+}
+
+.love-hate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.love-hate view{
+  line-height: 4em;
+  flex-grow: 1;
+  text-align: center;
+}
+.love-hate view image{
+  vertical-align: middle;
+  margin-right: .5em;
+}
+.love-hate view text{
+  color: #8a8a8a;
+  font-size: 10pt;
+}
+.bot-view{
+  text-align: center;
+}
+.bot{
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  margin-bottom: 10vh;
+  margin-top: 4vh;
+}
+.bot-view view {
+  font-weight: 100;
+}

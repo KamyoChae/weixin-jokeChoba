@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo}}" mode="aspectFill"></image>
+  </view>
+  <view class="usermotto" bindtap='getList'>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+
+<view class='mune-view' bindtap='getEvent'>
+
+  <view class='menu'>
+    <view class='dp' id='10'>
+      <image id='10' class='menu-image' src='../../images/01.png' mode='aspectFill'></image>
+      <text id='10'>图片</text>
+    </view>
+    <view class='cp' id='29'>
+      <image id='29' class='menu-image' src='../../images/02.png' mode='aspectFill'></image>
+      <text id='29'>段子</text>
+    </view>
+  </view>
+
+  <view class='menu'>
+
+    <view class='yc' id='41'>
+      <image id='41' class='menu-image' src='../../images/36.png' mode='aspectFill'></image>
+      <text id='41'>小视频</text>
+    </view>
+
+   
+    <view class='ly' id='0'>
+      <image id='0' class='menu-image' src='../../images/09.png' mode='aspectFill'></image>
+      <text id='0'>声音</text>
+    </view>
+
+  </view>
+
+</view>

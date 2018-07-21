@@ -1,0 +1,50 @@
+/* pages/content/content.wxss */
+
+.content {
+  width: 100vw;
+}
+
+.content-img {
+  position: relative;
+  width: 100vw;
+  text-align: center;
+}
+
+.loading-animate text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #8a8a8a;
+  font-size: 12pt;
+  font-weight: 200;
+}
+
+.content-img image {
+  position: relative;
+  margin-top: 0;
+  width: 95vw;
+}
+
+.titlt-view {
+  box-sizing: border-box;
+  padding: 0.5em;
+  color: #424242;
+  font-size: 14pt;
+}
+
+.saw {
+  padding: 0 0 0.8em 0.5em;
+}
+
+.saw image {
+  vertical-align: middle;
+  margin-right: 5rpx;
+}
+
+.saw text {
+  font-size: 10pt;
+  color: #d1d1d1;
+}

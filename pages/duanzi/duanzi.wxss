@@ -1,0 +1,32 @@
+/* pages/content/content.wxss */
+
+.content {
+  width: 100vw;
+}
+ 
+.titlt-view {
+  box-sizing: border-box;
+  padding: 0.5em;
+  color: #424242;
+  font-size: 14pt;
+  margin: 20rpx 0;
+  
+  min-height: 30vh;
+}
+
+.saw {
+  padding: 0 0 0.8em 0.5em;
+  border-bottom: 2rpx solid #e42323;
+}
+
+.saw image {
+  vertical-align: middle;
+  margin-right: 5rpx;
+}
+
+.saw text {
+  font-size: 10pt;
+  color: #d1d1d1;
+}
+
+ 
