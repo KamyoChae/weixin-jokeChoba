@@ -1,7 +1,7 @@
 //app.js
 App({
   appid: '70354', // 你的appid
-  sign: '1bb8936a2bcc41f4b06a87714815dff1', // 你的密钥
+  sign: '1bb8915dff1', // 你的密钥
   myType: "0",
   page: "1",
   allpages:0, // 获取该菜单选项共有多少页
